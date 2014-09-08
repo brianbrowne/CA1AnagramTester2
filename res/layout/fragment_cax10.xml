@@ -58,9 +58,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/EditTextTestCAX10"
-        android:onClick="onClickTestYourselfCAX10"
-        android:layout_centerHorizontal="true"
-        android:text="Test" />
+        android:onClick="onClickTestYourselfTitleCAX10"
+        android:text="Test Title" />
+    
+    <Button
+        android:id="@+id/buttonCAX10TestAnagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditTextTestCAX10"
+        android:layout_toRightOf="@+id/buttonCAX10"
+        android:onClick="onClickTestYourselfAnagramCAX10"
+        android:text="Test Anagram" />
     
     <TextView
         android:id="@+id/TextViewTitleAnswerCAX10"

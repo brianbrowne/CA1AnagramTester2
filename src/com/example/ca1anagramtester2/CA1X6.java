@@ -88,7 +88,7 @@ public class CA1X6 extends ActionBarActivity {
 		}
 	}
 
-	
+	////////////////////////DONE////////////////
 	public void onClickCA1X6TestAnswers(View v)
 	{
 		if (randomInt==1)
@@ -240,19 +240,21 @@ public class CA1X6 extends ActionBarActivity {
 		}
 		if(randomInt==3){
 
-
-			String Acronym3Answer1="Segmented markets";
-			String Acronym3Answer2="Location (fixed)";
-			String Acronym3Answer3="Investment market";
-			String Acronym3Answer4="Cashflows (institutional)";
-			String Acronym3Answer5="Economic growth";
-			String Acronym3Answer6="Development cycles";
-			String Acronym3Answer7="Planning permission rules/lack of physical space in areas";
-			String Acronym3Answer8="Occupation market";
-			String Acronym3Answer9="Time lag in developing new properties";
-			String Acronym3Answer10="Transaction costs (high)";
-			String Acronym3Answer11="Exchange rates";
-			String Acronym3Answer12="Real interest rates";
+			String Acronym3Answer1="Size of the assets in relation to the liabilities and in absolute terms";
+			String Acronym3Answer2="Other funds strategies (competition)";
+			String Acronym3Answer3="Uncertainty level of existing liabilities, both in amount and timing";
+			String Acronym3Answer4="Nature of existing liabilities (fixed, real, varying)";
+			String Acronym3Answer5="Diversification need";
+			String Acronym3Answer6="Existing asset portfolio (level of free assets)";
+			String Acronym3Answer7="Restrictions (statutory, legal, voluntary)";
+			String Acronym3Answer8="Term of existing liabilities";
+			String Acronym3Answer9="Return (expected long-term return from various asset classes)";
+			String Acronym3Answer10="Accrual of future liabilities";
+			String Acronym3Answer11="Currency of existing liabilities";
+			String Acronym3Answer12="Tax (tax of different investments and tax position of the investor)";
+			String Acronym3Answer13="Objectives of the institution";
+			String Acronym3Answer14="Risk appetite of the institution";
+			String Acronym3Answer15="Statutory valuation and solvency requirements";
 
 
 			EditTextCA1X6Answer1 = (EditText)findViewById(R.id.EditTextCA1X6Answer1);		EditTextCA1X6Answer2 = (EditText)findViewById(R.id.EditTextCA1X6Answer2);
@@ -264,6 +266,9 @@ public class CA1X6 extends ActionBarActivity {
 			EditTextCA1X6Answer10 = (EditText)findViewById(R.id.EditTextCA1X6Answer10);
 			EditTextCA1X6Answer11 = (EditText)findViewById(R.id.EditTextCA1X6Answer11);
 			EditTextCA1X6Answer12 = (EditText)findViewById(R.id.EditTextCA1X6Answer12);
+			EditTextCA1X6Answer13 = (EditText)findViewById(R.id.EditTextCA1X6Answer13);
+			EditTextCA1X6Answer14 = (EditText)findViewById(R.id.EditTextCA1X6Answer14);
+			EditTextCA1X6Answer15 = (EditText)findViewById(R.id.EditTextCA1X6Answer15);
 
 
 			textViewAnswer1CA1X6 = (TextView) findViewById(R.id.textViewAnswer1CA1X6);		textViewAnswer2CA1X6= (TextView) findViewById(R.id.textViewAnswer2CA1X6);
@@ -275,6 +280,9 @@ public class CA1X6 extends ActionBarActivity {
 			textViewAnswer10CA1X6 = (TextView) findViewById(R.id.textViewAnswer10CA1X6);
 			textViewAnswer11CA1X6 = (TextView) findViewById(R.id.textViewAnswer11CA1X6);
 			textViewAnswer12CA1X6 = (TextView) findViewById(R.id.textViewAnswer12CA1X6);
+			textViewAnswer13CA1X6 = (TextView) findViewById(R.id.textViewAnswer13CA1X6);
+			textViewAnswer14CA1X6 = (TextView) findViewById(R.id.textViewAnswer14CA1X6);
+			textViewAnswer15CA1X6 = (TextView) findViewById(R.id.textViewAnswer15CA1X6);
 
 			String checkuseranswerCA1X61=EditTextCA1X6Answer1.getText().toString();		String checkuseranswerCA1X62=EditTextCA1X6Answer2.getText().toString();
 			String checkuseranswerCA1X63=EditTextCA1X6Answer3.getText().toString();		String checkuseranswerCA1X64=EditTextCA1X6Answer4.getText().toString();
@@ -285,6 +293,9 @@ public class CA1X6 extends ActionBarActivity {
 			String checkuseranswerCA1X610=EditTextCA1X6Answer10.getText().toString();
 			String checkuseranswerCA1X611=EditTextCA1X6Answer11.getText().toString();
 			String checkuseranswerCA1X612=EditTextCA1X6Answer12.getText().toString();
+			String checkuseranswerCA1X613=EditTextCA1X6Answer13.getText().toString();
+			String checkuseranswerCA1X614=EditTextCA1X6Answer14.getText().toString();
+			String checkuseranswerCA1X615=EditTextCA1X6Answer15.getText().toString();
 
 			if(Acronym3Answer1.equals(checkuseranswerCA1X61)){
 				textViewAnswer1CA1X6.setTextColor(Color.parseColor("#006400"));
@@ -381,6 +392,30 @@ public class CA1X6 extends ActionBarActivity {
 				textViewAnswer12CA1X6.setTextColor(Color.parseColor("#FF0000"));
 				textViewAnswer12CA1X6.setText(Acronym3Answer12);
 			}
+			
+			if(Acronym3Answer13.equals(checkuseranswerCA1X613)){
+				textViewAnswer13CA1X6.setTextColor(Color.parseColor("#006400"));
+				textViewAnswer13CA1X6.setText(Acronym3Answer13);
+			}else{
+				textViewAnswer13CA1X6.setTextColor(Color.parseColor("#FF0000"));
+				textViewAnswer13CA1X6.setText(Acronym3Answer13);
+			}
+			
+			if(Acronym3Answer14.equals(checkuseranswerCA1X614)){
+				textViewAnswer14CA1X6.setTextColor(Color.parseColor("#006400"));
+				textViewAnswer14CA1X6.setText(Acronym3Answer14);
+			}else{
+				textViewAnswer14CA1X6.setTextColor(Color.parseColor("#FF0000"));
+				textViewAnswer14CA1X6.setText(Acronym3Answer14);
+			}
+			
+			if(Acronym3Answer15.equals(checkuseranswerCA1X615)){
+				textViewAnswer15CA1X6.setTextColor(Color.parseColor("#006400"));
+				textViewAnswer15CA1X6.setText(Acronym3Answer15);
+			}else{
+				textViewAnswer15CA1X6.setTextColor(Color.parseColor("#FF0000"));
+				textViewAnswer15CA1X6.setText(Acronym3Answer15);
+			}
 
 
 
@@ -388,14 +423,14 @@ public class CA1X6 extends ActionBarActivity {
 		if(randomInt==4){
 
 
-			String Acronym4Answer1="Smoothed market value";
-			String Acronym4Answer2="Historic book value";
-			String Acronym4Answer3="Adjusted book value";
-			String Acronym4Answer4="Market value";
-			String Acronym4Answer5="Fair value";
-			String Acronym4Answer6="Arbitrage value";
-			String Acronym4Answer7="Discounted cashflow";
-			String Acronym4Answer8="Stochastic modelling";
+			String Acronym4Answer1="Types of assets that an investor can invest in (restrictions)";
+			String Acronym4Answer2="Extent of mismatching allowed is limited";
+			String Acronym4Answer3="Currency (match assets and liabilities by currency)";
+			String Acronym4Answer4="Hold a certain proportion of total assets in a particular class (eg gov stock)";
+			String Acronym4Answer5="Single counterparty maximum exposure";
+			String Acronym4Answer6="Custodianship of assets";
+			String Acronym4Answer7="Amount of any one asset used to demonstrate solvency";
+			String Acronym4Answer8="Mismatching reserve (requirement to hold one)";
 
 
 			EditTextCA1X6Answer1 = (EditText)findViewById(R.id.EditTextCA1X6Answer1);		EditTextCA1X6Answer2 = (EditText)findViewById(R.id.EditTextCA1X6Answer2);
@@ -417,10 +452,10 @@ public class CA1X6 extends ActionBarActivity {
 
 			String checkuseranswerCA1X61=EditTextCA1X6Answer1.getText().toString();	String checkuseranswerCA1X62=EditTextCA1X6Answer2.getText().toString();
 			String checkuseranswerCA1X63=EditTextCA1X6Answer3.getText().toString();	String checkuseranswerCA1X64=EditTextCA1X6Answer4.getText().toString();
-			String checkuseranswerCA1X65=EditTextCA1X6Answer3.getText().toString();	
-			String checkuseranswerCA1X66=EditTextCA1X6Answer3.getText().toString();	
-			String checkuseranswerCA1X67=EditTextCA1X6Answer3.getText().toString();	
-			String checkuseranswerCA1X68=EditTextCA1X6Answer3.getText().toString();	
+			String checkuseranswerCA1X65=EditTextCA1X6Answer5.getText().toString();	
+			String checkuseranswerCA1X66=EditTextCA1X6Answer6.getText().toString();	
+			String checkuseranswerCA1X67=EditTextCA1X6Answer7.getText().toString();	
+			String checkuseranswerCA1X68=EditTextCA1X6Answer8.getText().toString();	
 
 
 			if(Acronym4Answer1.equals(checkuseranswerCA1X61)){
@@ -492,29 +527,41 @@ public class CA1X6 extends ActionBarActivity {
 		if(randomInt==5){
 
 
-			String Acronym5Answer1="Net asset value (NAV)";
-			String Acronym5Answer2="Economic value added (EVA)";
-			String Acronym5Answer3="Dividend discount model";
-			String Acronym5Answer4="Market value";
-			String Acronym5Answer5="Measurable key factor (dividend yield, payout ratio)";
-
-
+			String Acronym5Answer1="Fixed monetary liabilities (immunisation generally aimed at)";
+			String Acronym5Answer2="Investments in equities and property ruled out";
+			String Acronym5Answer3="Rebalance portfolio consistently";
+			String Acronym5Answer4="Mismatching profits possibility removed";
+			String Acronym5Answer5="Small changes in interest rate relied upon by theory";
+			String Acronym5Answer6="Flat yield curve assumed and requires same change in interest rate at all times";
+			String Acronym5Answer7="Assets of a suitably long discounted mean term may not exist";
+			String Acronym5Answer8="Ignores dealing costs of rebalancing portfolio";
+			String Acronym5Answer9="time lag if index-linked assets/liabilities used";
 
 			EditTextCA1X6Answer1 = (EditText)findViewById(R.id.EditTextCA1X6Answer1);		EditTextCA1X6Answer2 = (EditText)findViewById(R.id.EditTextCA1X6Answer2);
 			EditTextCA1X6Answer3 = (EditText)findViewById(R.id.EditTextCA1X6Answer3);		EditTextCA1X6Answer4 = (EditText)findViewById(R.id.EditTextCA1X6Answer4);
 			EditTextCA1X6Answer5 = (EditText)findViewById(R.id.EditTextCA1X6Answer5);
-
+			EditTextCA1X6Answer6 = (EditText)findViewById(R.id.EditTextCA1X6Answer6);
+			EditTextCA1X6Answer7 = (EditText)findViewById(R.id.EditTextCA1X6Answer7);
+			EditTextCA1X6Answer8 = (EditText)findViewById(R.id.EditTextCA1X6Answer8);
+			EditTextCA1X6Answer9 = (EditText)findViewById(R.id.EditTextCA1X6Answer9);
 
 
 			textViewAnswer1CA1X6 = (TextView) findViewById(R.id.textViewAnswer1CA1X6);		textViewAnswer2CA1X6= (TextView) findViewById(R.id.textViewAnswer2CA1X6);
 			textViewAnswer3CA1X6 = (TextView) findViewById(R.id.textViewAnswer3CA1X6);		textViewAnswer4CA1X6 = (TextView) findViewById(R.id.textViewAnswer4CA1X6);
 			textViewAnswer5CA1X6 = (TextView) findViewById(R.id.textViewAnswer5CA1X6);
-
+			textViewAnswer6CA1X6 = (TextView) findViewById(R.id.textViewAnswer6CA1X6);
+			textViewAnswer7CA1X6 = (TextView) findViewById(R.id.textViewAnswer7CA1X6);
+			textViewAnswer8CA1X6 = (TextView) findViewById(R.id.textViewAnswer8CA1X6);
+			textViewAnswer9CA1X6 = (TextView) findViewById(R.id.textViewAnswer9CA1X6);
 
 
 			String checkuseranswerCA1X61=EditTextCA1X6Answer1.getText().toString();	String checkuseranswerCA1X62=EditTextCA1X6Answer2.getText().toString();
 			String checkuseranswerCA1X63=EditTextCA1X6Answer3.getText().toString();	String checkuseranswerCA1X64=EditTextCA1X6Answer4.getText().toString();
-			String checkuseranswerCA1X65=EditTextCA1X6Answer5.getText().toString();	
+			String checkuseranswerCA1X65=EditTextCA1X6Answer5.getText().toString();
+			String checkuseranswerCA1X66=EditTextCA1X6Answer6.getText().toString();
+			String checkuseranswerCA1X67=EditTextCA1X6Answer7.getText().toString();
+			String checkuseranswerCA1X68=EditTextCA1X6Answer8.getText().toString();
+			String checkuseranswerCA1X69=EditTextCA1X6Answer9.getText().toString();
 
 
 			if(Acronym5Answer1.equals(checkuseranswerCA1X61)){
@@ -556,58 +603,45 @@ public class CA1X6 extends ActionBarActivity {
 				textViewAnswer5CA1X6.setTextColor(Color.parseColor("#FF0000"));
 				textViewAnswer5CA1X6.setText(Acronym5Answer5);
 			}
-
-
-
-		}
-		if(randomInt==6){
-
-
-			String Acronym6Answer1="Growth in economy";
-			String Acronym6Answer2="Inflation rate";
-			String Acronym6Answer3="Exchange rate";
-
-
-			EditTextCA1X6Answer1 = (EditText)findViewById(R.id.EditTextCA1X6Answer1);		EditTextCA1X6Answer2 = (EditText)findViewById(R.id.EditTextCA1X6Answer2);
-			EditTextCA1X6Answer3 = (EditText)findViewById(R.id.EditTextCA1X6Answer3);
-
-			textViewAnswer1CA1X6 = (TextView) findViewById(R.id.textViewAnswer1CA1X6);		textViewAnswer2CA1X6= (TextView) findViewById(R.id.textViewAnswer2CA1X6);
-			textViewAnswer3CA1X6 = (TextView) findViewById(R.id.textViewAnswer3CA1X6);
-
-
-			String checkuseranswerCA1X61=EditTextCA1X6Answer1.getText().toString();	String checkuseranswerCA1X62=EditTextCA1X6Answer2.getText().toString();
-			String checkuseranswerCA1X63=EditTextCA1X6Answer3.getText().toString();	
-
-			if(Acronym6Answer1.equals(checkuseranswerCA1X61)){
-				textViewAnswer1CA1X6.setTextColor(Color.parseColor("#006400"));
-				textViewAnswer1CA1X6.setText(Acronym6Answer1);
+			
+			if(Acronym5Answer6.equals(checkuseranswerCA1X66)){
+				textViewAnswer6CA1X6.setTextColor(Color.parseColor("#006400"));
+				textViewAnswer6CA1X6.setText(Acronym5Answer6);
 			}else{
-				textViewAnswer1CA1X6.setTextColor(Color.parseColor("#FF0000"));
-				textViewAnswer1CA1X6.setText(Acronym6Answer1);
+				textViewAnswer6CA1X6.setTextColor(Color.parseColor("#FF0000"));
+				textViewAnswer6CA1X6.setText(Acronym5Answer6);
 			}
 
-			if(Acronym6Answer2.equals(checkuseranswerCA1X62)){
-				textViewAnswer2CA1X6.setTextColor(Color.parseColor("#006400"));
-				textViewAnswer2CA1X6.setText(Acronym6Answer2);
+			if(Acronym5Answer7.equals(checkuseranswerCA1X67)){
+				textViewAnswer7CA1X6.setTextColor(Color.parseColor("#006400"));
+				textViewAnswer7CA1X6.setText(Acronym5Answer7);
 			}else{
-				textViewAnswer2CA1X6.setTextColor(Color.parseColor("#FF0000"));
-				textViewAnswer2CA1X6.setText(Acronym6Answer2);
+				textViewAnswer7CA1X6.setTextColor(Color.parseColor("#FF0000"));
+				textViewAnswer7CA1X6.setText(Acronym5Answer7);
 			}
-
-			if(Acronym6Answer3.equals(checkuseranswerCA1X63)){
-				textViewAnswer3CA1X6.setTextColor(Color.parseColor("#006400"));
-				textViewAnswer3CA1X6.setText(Acronym6Answer3);
+			
+			if(Acronym5Answer8.equals(checkuseranswerCA1X68)){
+				textViewAnswer8CA1X6.setTextColor(Color.parseColor("#006400"));
+				textViewAnswer8CA1X6.setText(Acronym5Answer8);
 			}else{
-				textViewAnswer3CA1X6.setTextColor(Color.parseColor("#FF0000"));
-				textViewAnswer3CA1X6.setText(Acronym6Answer3);
+				textViewAnswer8CA1X6.setTextColor(Color.parseColor("#FF0000"));
+				textViewAnswer8CA1X6.setText(Acronym5Answer8);
+			}
+			
+			if(Acronym5Answer9.equals(checkuseranswerCA1X69)){
+				textViewAnswer9CA1X6.setTextColor(Color.parseColor("#006400"));
+				textViewAnswer9CA1X6.setText(Acronym5Answer9);
+			}else{
+				textViewAnswer9CA1X6.setTextColor(Color.parseColor("#FF0000"));
+				textViewAnswer9CA1X6.setText(Acronym5Answer9);
 			}
 
 		}
-
+		
 
 	}
 
-	
+	//////////////////////DONE/////////////////
 	public void onClickGetAcronymCA1X6(View v)
 	{
 
@@ -664,7 +698,7 @@ public class CA1X6 extends ActionBarActivity {
 		textViewAnswer13CA1X6.setText(null);		textViewAnswer14CA1X6.setText(null);		textViewAnswer15CA1X6.setText(null);		textViewAnswer16CA1X6.setText(null);
 
 		Random randomNum = new Random();
-		randomInt = randomNum.nextInt(6)+1;//when you click "Display Database"
+		randomInt = randomNum.nextInt(5)+1;//when you click "Display Database"
 
 		TextViewTitleAnswerCA1X6 = (TextView) findViewById(R.id.TextViewTitleAnswerCA1X6);
 		TextViewTitleAnswerCA1X6.setText(null);
@@ -674,7 +708,7 @@ public class CA1X6 extends ActionBarActivity {
 
 		if(randomInt == 1){
 
-			String Acronym1Acronym ="COPIERS";
+			String Acronym1Acronym ="DOUR";
 
 			textViewCA1X6 = (TextView) findViewById(R.id.PullTestStringCA1X6);//take in string
 			textViewCA1X6.setText(Acronym1Acronym);
@@ -683,7 +717,7 @@ public class CA1X6 extends ActionBarActivity {
 
 		if(randomInt == 2){
 
-			String Acronym2Acronym ="CRAP SECTOR";
+			String Acronym2Acronym ="VAN PIC";
 
 			textViewCA1X6 = (TextView) findViewById(R.id.PullTestStringCA1X6);//take in string
 			textViewCA1X6.setText(Acronym2Acronym);
@@ -694,7 +728,7 @@ public class CA1X6 extends ActionBarActivity {
 
 		if(randomInt == 3){
 
-			String Acronym3Acronym ="SLICED POTTER";
+			String Acronym3Acronym ="SOUNDER TRACTORS";
 
 			textViewCA1X6 = (TextView) findViewById(R.id.PullTestStringCA1X6);//take in string
 			textViewCA1X6.setText(Acronym3Acronym);
@@ -705,7 +739,7 @@ public class CA1X6 extends ActionBarActivity {
 
 		if(randomInt == 4){
 
-			String Acronym4Acronym ="SHAM FADS";
+			String Acronym4Acronym ="TECH SCAM";
 
 			textViewCA1X6 = (TextView) findViewById(R.id.PullTestStringCA1X6);//take in string
 			textViewCA1X6.setText(Acronym4Acronym);
@@ -715,7 +749,7 @@ public class CA1X6 extends ActionBarActivity {
 
 		if(randomInt == 5){
 
-			String Acronym5Acronym ="NEDMM";
+			String Acronym5Acronym ="FIRMS FAIL";
 
 			textViewCA1X6 = (TextView) findViewById(R.id.PullTestStringCA1X6);//take in string
 			textViewCA1X6.setText(Acronym5Acronym);
@@ -723,22 +757,10 @@ public class CA1X6 extends ActionBarActivity {
 
 		}
 
-		if(randomInt == 6){
-
-
-
-			String Acronym6Acronym ="GIE";
-
-			textViewCA1X6 = (TextView) findViewById(R.id.PullTestStringCA1X6);//take in string
-			textViewCA1X6.setText(Acronym6Acronym);
-
-
-		}
-
-
+		
 	}
 
-	
+	/////////////////////DONE/////////////////////
 	public void onClickTestYourselfAcronymCA1X6(View v)
 	{
 
@@ -751,15 +773,13 @@ public class CA1X6 extends ActionBarActivity {
 			CA1X6Answer1Letter6 = (TextView) findViewById(R.id.CA1X6Answer1Letter6);
 			CA1X6Answer1Letter7 = (TextView) findViewById(R.id.CA1X6Answer1Letter7);
 
-			CA1X6Answer1Letter1.setText("C");
+			CA1X6Answer1Letter1.setText("D");
 			CA1X6Answer1Letter2.setText("O");
-			CA1X6Answer1Letter3.setText("P");
-			CA1X6Answer1Letter4.setText("I");
-			CA1X6Answer1Letter5.setText("E");
-			CA1X6Answer1Letter6.setText("R");
-			CA1X6Answer1Letter7.setText("S");
+			CA1X6Answer1Letter3.setText("U");
+			CA1X6Answer1Letter4.setText("R");
+			
 
-			String Acronym="COPIERS";
+			String Acronym="DOUR";
 
 			EditTextTestCA1X6 = (EditText)findViewById(R.id.EditTextTestCA1X6);
 			useranswerCA1X6=EditTextTestCA1X6.getText().toString();
@@ -785,19 +805,16 @@ public class CA1X6 extends ActionBarActivity {
 			CA1X6Answer1Letter9 = (TextView) findViewById(R.id.CA1X6Answer1Letter9);
 			CA1X6Answer1Letter10 = (TextView) findViewById(R.id.CA1X6Answer1Letter10);
 
-			CA1X6Answer1Letter1.setText("C");
-			CA1X6Answer1Letter2.setText("R");
-			CA1X6Answer1Letter3.setText("A");
+			CA1X6Answer1Letter1.setText("V");
+			CA1X6Answer1Letter2.setText("A");
+			CA1X6Answer1Letter3.setText("N");
 			CA1X6Answer1Letter4.setText("P");
-			CA1X6Answer1Letter5.setText("S");
-			CA1X6Answer1Letter6.setText("E");
-			CA1X6Answer1Letter7.setText("C");
-			CA1X6Answer1Letter8.setText("T");
-			CA1X6Answer1Letter9.setText("O");
-			CA1X6Answer1Letter10.setText("R");
+			CA1X6Answer1Letter5.setText("I");
+			CA1X6Answer1Letter6.setText("C");
+			
 
 
-			String Acronym="CRAP SECTOR";
+			String Acronym="VAN PIC";
 
 			EditTextTestCA1X6 = (EditText)findViewById(R.id.EditTextTestCA1X6);
 			useranswerCA1X6=EditTextTestCA1X6.getText().toString();
@@ -822,21 +839,27 @@ public class CA1X6 extends ActionBarActivity {
 			CA1X6Answer1Letter10 = (TextView) findViewById(R.id.CA1X6Answer1Letter10);
 			CA1X6Answer1Letter11 = (TextView) findViewById(R.id.CA1X6Answer1Letter11);
 			CA1X6Answer1Letter12 = (TextView) findViewById(R.id.CA1X6Answer1Letter12);
+			CA1X6Answer1Letter13 = (TextView) findViewById(R.id.CA1X6Answer1Letter13);
+			CA1X6Answer1Letter14 = (TextView) findViewById(R.id.CA1X6Answer1Letter14);
+			CA1X6Answer1Letter15 = (TextView) findViewById(R.id.CA1X6Answer1Letter15);
 
 			CA1X6Answer1Letter1.setText("S");
-			CA1X6Answer1Letter2.setText("L");
-			CA1X6Answer1Letter3.setText("I");
-			CA1X6Answer1Letter4.setText("C");
-			CA1X6Answer1Letter5.setText("E");
-			CA1X6Answer1Letter6.setText("D");
-			CA1X6Answer1Letter7.setText("P");
-			CA1X6Answer1Letter8.setText("O");
-			CA1X6Answer1Letter9.setText("T");
-			CA1X6Answer1Letter10.setText("T");
-			CA1X6Answer1Letter11.setText("E");
-			CA1X6Answer1Letter12.setText("R");
+			CA1X6Answer1Letter2.setText("O");
+			CA1X6Answer1Letter3.setText("U");
+			CA1X6Answer1Letter4.setText("N");
+			CA1X6Answer1Letter5.setText("D");
+			CA1X6Answer1Letter6.setText("E");
+			CA1X6Answer1Letter7.setText("R");
+			CA1X6Answer1Letter8.setText("T");
+			CA1X6Answer1Letter9.setText("R");
+			CA1X6Answer1Letter10.setText("A");
+			CA1X6Answer1Letter11.setText("C");
+			CA1X6Answer1Letter12.setText("T");
+			CA1X6Answer1Letter13.setText("O");
+			CA1X6Answer1Letter14.setText("R");
+			CA1X6Answer1Letter15.setText("S");
 
-			String Acronym="SLICED POTTER";
+			String Acronym="SOUNDER TRACTORS";
 
 			EditTextTestCA1X6 = (EditText)findViewById(R.id.EditTextTestCA1X6);
 			useranswerCA1X6=EditTextTestCA1X6.getText().toString();
@@ -862,16 +885,16 @@ public class CA1X6 extends ActionBarActivity {
 			CA1X6Answer1Letter8 = (TextView) findViewById(R.id.CA1X6Answer1Letter8);		
 
 
-			CA1X6Answer1Letter1.setText("S");
-			CA1X6Answer1Letter2.setText("H");
-			CA1X6Answer1Letter3.setText("A");
-			CA1X6Answer1Letter4.setText("M");
-			CA1X6Answer1Letter5.setText("F");
-			CA1X6Answer1Letter6.setText("A");
-			CA1X6Answer1Letter7.setText("D");
-			CA1X6Answer1Letter8.setText("S");
+			CA1X6Answer1Letter1.setText("T");
+			CA1X6Answer1Letter2.setText("E");
+			CA1X6Answer1Letter3.setText("C");
+			CA1X6Answer1Letter4.setText("H");
+			CA1X6Answer1Letter5.setText("S");
+			CA1X6Answer1Letter6.setText("C");
+			CA1X6Answer1Letter7.setText("A");
+			CA1X6Answer1Letter8.setText("M");
 
-			String Acronym="SHAM FADS";
+			String Acronym="TECH SCAM";
 
 			EditTextTestCA1X6 = (EditText)findViewById(R.id.EditTextTestCA1X6);
 			useranswerCA1X6=EditTextTestCA1X6.getText().toString();
@@ -892,44 +915,23 @@ public class CA1X6 extends ActionBarActivity {
 			CA1X6Answer1Letter1 = (TextView) findViewById(R.id.CA1X6Answer1Letter1);		CA1X6Answer1Letter2 = (TextView) findViewById(R.id.CA1X6Answer1Letter2);
 			CA1X6Answer1Letter3 = (TextView) findViewById(R.id.CA1X6Answer1Letter3);		CA1X6Answer1Letter4 = (TextView) findViewById(R.id.CA1X6Answer1Letter4);
 			CA1X6Answer1Letter5 = (TextView) findViewById(R.id.CA1X6Answer1Letter5);
+			CA1X6Answer1Letter6 = (TextView) findViewById(R.id.CA1X6Answer1Letter6);
+			CA1X6Answer1Letter7 = (TextView) findViewById(R.id.CA1X6Answer1Letter7);
+			CA1X6Answer1Letter8 = (TextView) findViewById(R.id.CA1X6Answer1Letter8);
+			CA1X6Answer1Letter9 = (TextView) findViewById(R.id.CA1X6Answer1Letter9);
 
-
-			CA1X6Answer1Letter1.setText("N");
-			CA1X6Answer1Letter2.setText("E");
-			CA1X6Answer1Letter3.setText("D");
-			CA1X6Answer1Letter4.setText("M");
-			CA1X6Answer1Letter5.setText("M");
-
-
-
-			String Acronym="NEDMM";
-
-			EditTextTestCA1X6 = (EditText)findViewById(R.id.EditTextTestCA1X6);
-			useranswerCA1X6=EditTextTestCA1X6.getText().toString();
-			TextViewTitleAnswerCA1X6 = (TextView) findViewById(R.id.TextViewTitleAnswerCA1X6);
-
-			if(Acronym.equals(useranswerCA1X6)){
-				TextViewTitleAnswerCA1X6.setTextColor(Color.parseColor("#006400"));
-				TextViewTitleAnswerCA1X6.setText(Acronym);
-			}else{
-				TextViewTitleAnswerCA1X6.setTextColor(Color.parseColor("#FF0000"));
-				TextViewTitleAnswerCA1X6.setText(Acronym);
-			}
-
-		}
-
-		if (randomInt==6)
-		{
-
-
-			CA1X6Answer1Letter1 = (TextView) findViewById(R.id.CA1X6Answer1Letter1);		CA1X6Answer1Letter2 = (TextView) findViewById(R.id.CA1X6Answer1Letter2);
-			CA1X6Answer1Letter3 = (TextView) findViewById(R.id.CA1X6Answer1Letter3);
-
-			CA1X6Answer1Letter1.setText("G");
+			CA1X6Answer1Letter1.setText("F");
 			CA1X6Answer1Letter2.setText("I");
-			CA1X6Answer1Letter3.setText("E");
+			CA1X6Answer1Letter3.setText("R");
+			CA1X6Answer1Letter4.setText("M");
+			CA1X6Answer1Letter5.setText("S");
+			CA1X6Answer1Letter6.setText("F");
+			CA1X6Answer1Letter7.setText("A");
+			CA1X6Answer1Letter8.setText("I");
+			CA1X6Answer1Letter9.setText("L");
 
-			String Acronym="GIE";
+
+			String Acronym="FIRMS FAIL";
 
 			EditTextTestCA1X6 = (EditText)findViewById(R.id.EditTextTestCA1X6);
 			useranswerCA1X6=EditTextTestCA1X6.getText().toString();
@@ -945,13 +947,14 @@ public class CA1X6 extends ActionBarActivity {
 
 		}
 
+		
 	}
 
-	
+	//////////////////////DONE//////////////////
 	public void onClickGetTitleCA1X6(View v)
 	{
 		Random randomNum = new Random();
-		randomInt = randomNum.nextInt(6)+1;//when you click "Display Database"
+		randomInt = randomNum.nextInt(5)+1;//when you click "Display Database"
 
 		TextViewTitleAnswerCA1X6 = (TextView) findViewById(R.id.TextViewTitleAnswerCA1X6);
 		TextViewTitleAnswerCA1X6.setText(null);
@@ -1012,7 +1015,7 @@ public class CA1X6 extends ActionBarActivity {
 
 		if(randomInt == 1){
 
-			String Acronym1Title = "Economic factors influencing bond yields";
+			String Acronym1Title = "Ways of defining risk";
 
 			textViewCA1X6 = (TextView) findViewById(R.id.PullTestStringCA1X6);//take in string
 			textViewCA1X6.setText(Acronym1Title);
@@ -1023,7 +1026,7 @@ public class CA1X6 extends ActionBarActivity {
 
 		if(randomInt == 2){
 
-			String Acronym2Title = "Factors affecting the level of the equity market";
+			String Acronym2Title = "Main factors to be taken into account by an individual in setting a strategic investment policy";
 
 			textViewCA1X6 = (TextView) findViewById(R.id.PullTestStringCA1X6);//take in string
 			textViewCA1X6.setText(Acronym2Title);
@@ -1033,7 +1036,7 @@ public class CA1X6 extends ActionBarActivity {
 
 		if(randomInt == 3){
 
-			String Acronym3Title = "Factors affecting the level of the property market";
+			String Acronym3Title = "Factors influencing investment strategy";
 
 			textViewCA1X6 = (TextView) findViewById(R.id.PullTestStringCA1X6);//take in string
 			textViewCA1X6.setText(Acronym3Title);
@@ -1044,7 +1047,7 @@ public class CA1X6 extends ActionBarActivity {
 
 		if(randomInt == 4){
 
-			String Acronym4Title = "Ways of valuing assets";
+			String Acronym4Title = "Regulatory controls on assets";
 
 			textViewCA1X6 = (TextView) findViewById(R.id.PullTestStringCA1X6);//take in string
 			textViewCA1X6.setText(Acronym4Title);
@@ -1054,30 +1057,15 @@ public class CA1X6 extends ActionBarActivity {
 
 		if(randomInt == 5){
 
-			String Acronym5Title = "Five ways to value equities";
+			String Acronym5Title = "The limitations of classical immunisation theory";
 
 			textViewCA1X6 = (TextView) findViewById(R.id.PullTestStringCA1X6);//take in string
 			textViewCA1X6.setText(Acronym5Title);
 
-
 		}
-
-		if(randomInt == 6){
-
-
-
-			String Acronym6Title = "Factors affecting short-term interest rates";
-
-			textViewCA1X6 = (TextView) findViewById(R.id.PullTestStringCA1X6);//take in string
-			textViewCA1X6.setText(Acronym6Title);
-
-
-		}
-
-
 	}
 
-	
+	///////////////////////DONE////////////////////
 	public void onClickTestYourselfTitleCA1X6(View v)
 	{
 		if (randomInt==1)
@@ -1089,15 +1077,13 @@ public class CA1X6 extends ActionBarActivity {
 			CA1X6Answer1Letter6 = (TextView) findViewById(R.id.CA1X6Answer1Letter6);
 			CA1X6Answer1Letter7 = (TextView) findViewById(R.id.CA1X6Answer1Letter7);
 
-			CA1X6Answer1Letter1.setText("C");
+			CA1X6Answer1Letter1.setText("D");
 			CA1X6Answer1Letter2.setText("O");
-			CA1X6Answer1Letter3.setText("P");
-			CA1X6Answer1Letter4.setText("I");
-			CA1X6Answer1Letter5.setText("E");
-			CA1X6Answer1Letter6.setText("R");
-			CA1X6Answer1Letter7.setText("S");
+			CA1X6Answer1Letter3.setText("U");
+			CA1X6Answer1Letter4.setText("R");
+			
 
-			String Acronym="Economic factors influencing bond yields";
+			String Acronym="Ways of defining risk";
 
 			EditTextTestCA1X6 = (EditText)findViewById(R.id.EditTextTestCA1X6);
 			useranswerCA1X6=EditTextTestCA1X6.getText().toString();
@@ -1124,19 +1110,16 @@ public class CA1X6 extends ActionBarActivity {
 			CA1X6Answer1Letter9 = (TextView) findViewById(R.id.CA1X6Answer1Letter9);		CA1X6Answer1Letter10 = (TextView) findViewById(R.id.CA1X6Answer1Letter10);
 
 
-			CA1X6Answer1Letter1.setText("C");
-			CA1X6Answer1Letter2.setText("R");
-			CA1X6Answer1Letter3.setText("A");
+			CA1X6Answer1Letter1.setText("V");
+			CA1X6Answer1Letter2.setText("A");
+			CA1X6Answer1Letter3.setText("N");
 			CA1X6Answer1Letter4.setText("P");
-			CA1X6Answer1Letter5.setText("S");
-			CA1X6Answer1Letter6.setText("E");
-			CA1X6Answer1Letter7.setText("C");
-			CA1X6Answer1Letter8.setText("T");
-			CA1X6Answer1Letter9.setText("O");
-			CA1X6Answer1Letter10.setText("R");
+			CA1X6Answer1Letter5.setText("I");
+			CA1X6Answer1Letter6.setText("C");
+			
 
 
-			String Acronym="Factors affecting the level of the equity market";
+			String Acronym="Main factors to be taken into account by an individual in setting a strategic investment policy";
 
 			EditTextTestCA1X6 = (EditText)findViewById(R.id.EditTextTestCA1X6);
 			useranswerCA1X6=EditTextTestCA1X6.getText().toString();
@@ -1164,24 +1147,30 @@ public class CA1X6 extends ActionBarActivity {
 			CA1X6Answer1Letter10 = (TextView) findViewById(R.id.CA1X6Answer1Letter10);
 			CA1X6Answer1Letter11 = (TextView) findViewById(R.id.CA1X6Answer1Letter11);
 			CA1X6Answer1Letter12 = (TextView) findViewById(R.id.CA1X6Answer1Letter12);
+			CA1X6Answer1Letter13 = (TextView) findViewById(R.id.CA1X6Answer1Letter13);
+			CA1X6Answer1Letter14 = (TextView) findViewById(R.id.CA1X6Answer1Letter14);
+			CA1X6Answer1Letter15 = (TextView) findViewById(R.id.CA1X6Answer1Letter15);
 
 
 			CA1X6Answer1Letter1.setText("S");
-			CA1X6Answer1Letter2.setText("L");
-			CA1X6Answer1Letter3.setText("I");
-			CA1X6Answer1Letter4.setText("C");
-			CA1X6Answer1Letter5.setText("E");
-			CA1X6Answer1Letter6.setText("D");
-			CA1X6Answer1Letter7.setText("P");
-			CA1X6Answer1Letter8.setText("O");
-			CA1X6Answer1Letter9.setText("T");
-			CA1X6Answer1Letter10.setText("T");
-			CA1X6Answer1Letter11.setText("E");
-			CA1X6Answer1Letter12.setText("R");
+			CA1X6Answer1Letter2.setText("O");
+			CA1X6Answer1Letter3.setText("U");
+			CA1X6Answer1Letter4.setText("N");
+			CA1X6Answer1Letter5.setText("D");
+			CA1X6Answer1Letter6.setText("E");
+			CA1X6Answer1Letter7.setText("R");
+			CA1X6Answer1Letter8.setText("T");
+			CA1X6Answer1Letter9.setText("R");
+			CA1X6Answer1Letter10.setText("A");
+			CA1X6Answer1Letter11.setText("C");
+			CA1X6Answer1Letter12.setText("T");
+			CA1X6Answer1Letter13.setText("O");
+			CA1X6Answer1Letter14.setText("R");
+			CA1X6Answer1Letter15.setText("S");
 
 
 
-			String Acronym="Factors affecting the level of the property market";
+			String Acronym="Factors influencing investment strategy";
 
 			EditTextTestCA1X6 = (EditText)findViewById(R.id.EditTextTestCA1X6);
 			useranswerCA1X6=EditTextTestCA1X6.getText().toString();
@@ -1207,17 +1196,17 @@ public class CA1X6 extends ActionBarActivity {
 			CA1X6Answer1Letter8 = (TextView) findViewById(R.id.CA1X6Answer1Letter8);		
 
 
-			CA1X6Answer1Letter1.setText("S");
-			CA1X6Answer1Letter2.setText("H");
-			CA1X6Answer1Letter3.setText("A");
-			CA1X6Answer1Letter4.setText("M");
-			CA1X6Answer1Letter5.setText("F");
-			CA1X6Answer1Letter6.setText("A");
-			CA1X6Answer1Letter7.setText("D");
-			CA1X6Answer1Letter8.setText("S");
+			CA1X6Answer1Letter1.setText("T");
+			CA1X6Answer1Letter2.setText("E");
+			CA1X6Answer1Letter3.setText("C");
+			CA1X6Answer1Letter4.setText("H");
+			CA1X6Answer1Letter5.setText("S");
+			CA1X6Answer1Letter6.setText("C");
+			CA1X6Answer1Letter7.setText("A");
+			CA1X6Answer1Letter8.setText("M");
 
 
-			String Acronym="Ways of valuing assets";
+			String Acronym="Regulatory controls on assets";
 
 			EditTextTestCA1X6 = (EditText)findViewById(R.id.EditTextTestCA1X6);
 			useranswerCA1X6=EditTextTestCA1X6.getText().toString();
@@ -1238,45 +1227,23 @@ public class CA1X6 extends ActionBarActivity {
 			CA1X6Answer1Letter1 = (TextView) findViewById(R.id.CA1X6Answer1Letter1);		CA1X6Answer1Letter2 = (TextView) findViewById(R.id.CA1X6Answer1Letter2);
 			CA1X6Answer1Letter3 = (TextView) findViewById(R.id.CA1X6Answer1Letter3);		CA1X6Answer1Letter4 = (TextView) findViewById(R.id.CA1X6Answer1Letter4);
 			CA1X6Answer1Letter5 = (TextView) findViewById(R.id.CA1X6Answer1Letter5);		CA1X6Answer1Letter6 = (TextView) findViewById(R.id.CA1X6Answer1Letter6);
+			CA1X6Answer1Letter7 = (TextView) findViewById(R.id.CA1X6Answer1Letter7);		
+			CA1X6Answer1Letter8 = (TextView) findViewById(R.id.CA1X6Answer1Letter8);		
+			CA1X6Answer1Letter9 = (TextView) findViewById(R.id.CA1X6Answer1Letter9);		
 
 
-			CA1X6Answer1Letter1.setText("N");
-			CA1X6Answer1Letter2.setText("E");
-			CA1X6Answer1Letter3.setText("D");
-			CA1X6Answer1Letter4.setText("M");
-			CA1X6Answer1Letter5.setText("M");
-
-
-			String Acronym="Five ways to value equities";
-
-			EditTextTestCA1X6 = (EditText)findViewById(R.id.EditTextTestCA1X6);
-			useranswerCA1X6=EditTextTestCA1X6.getText().toString();
-			TextViewTitleAnswerCA1X6 = (TextView) findViewById(R.id.TextViewTitleAnswerCA1X6);
-
-			if(Acronym.equals(useranswerCA1X6)){
-				TextViewTitleAnswerCA1X6.setTextColor(Color.parseColor("#006400"));
-				TextViewTitleAnswerCA1X6.setText(Acronym);
-			}else{
-				TextViewTitleAnswerCA1X6.setTextColor(Color.parseColor("#FF0000"));
-				TextViewTitleAnswerCA1X6.setText(Acronym);
-			}
-
-		}
-
-		if (randomInt==6)
-		{
-
-
-			CA1X6Answer1Letter1 = (TextView) findViewById(R.id.CA1X6Answer1Letter1);		CA1X6Answer1Letter2 = (TextView) findViewById(R.id.CA1X6Answer1Letter2);
-			CA1X6Answer1Letter3 = (TextView) findViewById(R.id.CA1X6Answer1Letter3);		CA1X6Answer1Letter4 = (TextView) findViewById(R.id.CA1X6Answer1Letter4);
-
-
-			CA1X6Answer1Letter1.setText("G");
+			CA1X6Answer1Letter1.setText("F");
 			CA1X6Answer1Letter2.setText("I");
-			CA1X6Answer1Letter3.setText("E");
+			CA1X6Answer1Letter3.setText("R");
+			CA1X6Answer1Letter4.setText("M");
+			CA1X6Answer1Letter5.setText("S");
+			CA1X6Answer1Letter6.setText("F");
+			CA1X6Answer1Letter7.setText("A");
+			CA1X6Answer1Letter8.setText("I");
+			CA1X6Answer1Letter9.setText("L");
 
 
-			String Acronym="Factors affecting short-term interest rates";
+			String Acronym="The limitations of classical immunisation theory";
 
 			EditTextTestCA1X6 = (EditText)findViewById(R.id.EditTextTestCA1X6);
 			useranswerCA1X6=EditTextTestCA1X6.getText().toString();
@@ -1291,7 +1258,6 @@ public class CA1X6 extends ActionBarActivity {
 			}
 
 		}
-
 
 	}
 

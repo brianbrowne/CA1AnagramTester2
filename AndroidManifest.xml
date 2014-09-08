@@ -90,6 +90,30 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ca1anagramtester2.MainActivityCA1AcronymTester2" />
         </activity>
+        <activity
+            android:name="com.example.ca1anagramtester2.CA1X7"
+            android:label="@string/title_activity_ca1_x7"
+            android:parentActivityName="com.example.ca1anagramtester2.MainActivityCA1AcronymTester2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ca1anagramtester2.MainActivityCA1AcronymTester2" />
+        </activity>
+        <activity
+            android:name="com.example.ca1anagramtester2.CA1X8"
+            android:label="@string/title_activity_ca1_x8"
+            android:parentActivityName="com.example.ca1anagramtester2.MainActivityCA1AcronymTester2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ca1anagramtester2.MainActivityCA1AcronymTester2" />
+        </activity>
+        <activity
+            android:name="com.example.ca1anagramtester2.CA1X9"
+            android:label="@string/title_activity_ca1_x9"
+            android:parentActivityName="com.example.ca1anagramtester2.MainActivityCA1AcronymTester2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ca1anagramtester2.MainActivityCA1AcronymTester2" />
+        </activity>
     </application>
 
 </manifest>

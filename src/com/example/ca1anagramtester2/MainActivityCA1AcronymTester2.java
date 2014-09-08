@@ -79,9 +79,33 @@ public class MainActivityCA1AcronymTester2 extends ActionBarActivity {
 	    startActivity(intent);
 	}
 	
+	public void onClickCAX6(View view) 
+	{
+		
+	    Intent intent = new Intent(MainActivityCA1AcronymTester2.this, CA1X6.class);
+	    startActivity(intent);
+	}
 	
+	public void onClickCAX7(View view) 
+	{
+		
+	    Intent intent = new Intent(MainActivityCA1AcronymTester2.this, CA1X7.class);
+	    startActivity(intent);
+	}
 	
+	public void onClickCAX8(View view) 
+	{
+		
+	    Intent intent = new Intent(MainActivityCA1AcronymTester2.this, CA1X8.class);
+	    startActivity(intent);
+	}
 	
+	public void onClickCAX9(View view) 
+	{
+		
+	    Intent intent = new Intent(MainActivityCA1AcronymTester2.this, CA1X9.class);
+	    startActivity(intent);
+	}
 	
 	
 	
